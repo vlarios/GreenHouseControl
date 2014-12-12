@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/commands_state_sel"
+    android:background="@color/white"
+    android:clickable="true"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTitle"
+        android:layout_gravity="center_horizontal" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ffdee1ff" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewStatus"
+        android:layout_gravity="center_horizontal" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apagar"
+        android:id="@+id/offCmdSendBtn"
+        android:layout_gravity="center_horizontal"
+        android:onClick="offCmdSendBtnPressed"
+        android:background="#ffff403b" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Encender"
+        android:id="@+id/onCmdSendBtn"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onCmdSendBtnPressed"
+        android:background="#ff80ff3c" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="30dp" />
+
+
+</LinearLayout>
