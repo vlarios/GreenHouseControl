@@ -36,7 +36,8 @@
         android:id="@+id/offCmdSendBtn"
         android:layout_gravity="center_horizontal"
         android:onClick="offCmdSendBtnPressed"
-        android:background="#ffff403b" />
+        android:background="#ff000000"
+        android:textColor="#fffff4f6" />
 
     <Space
         android:layout_width="fill_parent"
@@ -49,7 +50,7 @@
         android:id="@+id/onCmdSendBtn"
         android:layout_gravity="center_horizontal"
         android:onClick="onCmdSendBtnPressed"
-        android:background="#ff80ff3c" />
+        android:background="#ffff4860" />
 
     <Space
         android:layout_width="fill_parent"
